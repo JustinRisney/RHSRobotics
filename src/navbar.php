@@ -21,6 +21,7 @@
 	}
 	.nav-link{
 		font-weight: 300;	
+		color: black !important;
 	} 
 	nav {
 		padding-top: 8px;
@@ -35,7 +36,7 @@
 		padding-left: 15px;
 	}
 	</style>
-<nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #6D8A88" id="OUR-navbar">
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #C4CACC" id="OUR-navbar">
 	<a class="navbar-brand" href="/">
 		<img src="/images/logo.png" height="20px" width="25px" style="filter: grayscale(.0000000000000000000000000000000000000000000000000000000000000000000000000000000001%);"/>
 	</a>
