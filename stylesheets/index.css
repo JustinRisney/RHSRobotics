@@ -1,0 +1,169 @@
+body {
+	padding-top: 100px;
+	padding-bottom: 80px;
+    background-color: white;
+    text-align: center;
+}
+.logo {
+    filter: drop-shadow(0 0.45rem FireBrick);
+}
+.carousel-inner {
+    z-index: 1;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+}
+.logo {
+    margin: 0px;
+    z-index: 2;
+    position: absolute;
+    top: 100px;
+    left: 15%;
+}
+.container{
+    position: relative;
+}
+#navbar-main {
+    border-top: 2px solid firebrick;
+}
+.nav-item{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.header h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+.header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 37px;
+}
+.header { 
+    text-align: center;
+    margin: auto;
+    width: 85%;
+    height: 100%;
+}
+.aboutRow {
+    height: 100%; 
+    margin: 40px auto;
+    background-image: url('../images/Copy of 19298_1522005372748.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button {
+    display: block;
+    width: 20%;
+    border: solid 2px firebrick;
+    border-radius: 5px;
+    filter: drop-shadow(0.5 0.9rem black);
+    background-color: #0F1D46;
+    padding: 14px 28px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.giveUsMoneyPlease {
+    width: 60%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+}
+.compRow {
+    height: 100%; 
+    background-image: url('../images/FRC-2019-Social-Assets_option3-twitter-cover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.infoBlocks {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(0,0,0, 0.5);
+    padding: 20px;
+    font-weight: bold;
+}
+.infoBlocks p {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.infoBlocks h3 {
+    font-size: 35px;
+    font-family: 'abel';
+    color: white;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+footer {
+    background-color: #1c1919;
+    color: white;
+    height: 100%;
+    margin-bottom: -100px;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+footer.p{
+    
+}
+.address {
+    text-align: left;
+    margin-left: 150px;
+}
+
+/*Donations*/
+
+h1.donations {
+    font-family: 'Teko', sans-serif;
+    font-size: 100px;
+    margin-bottom: 0px;
+    margin: auto;
+}
+.donations, .button {
+    padding: 10px 20px;
+    font-size: 30px;
+}
+h3.donations {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    width: 75%;
+    margin: auto;
+    font-weight: bold;
+}
+p.donations {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+.GoFundMe {
+    margin: 20px;
+}
+hr.type_8 {
+    background-image: url('../images/type_8.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 55px;
+    border: 0px;
+    margin: auto;
+    text-align: center;
+    margin: 40px;
+}
