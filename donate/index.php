@@ -6,26 +6,27 @@
 	<link rel="stylesheet" type="text/css" href="../stylesheets/index.css">
     <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Nova+Flat|Raleway|Teko:600|Ubuntu" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 	<body>
 		<?php include'../navbar.php';?>
-
 		<div class="donations">
             <h1>Donations</h1>
             <h3>Thank you for supporting FRC Team 6644! There are many ways you can contribute to our team:</h3>
             <hr class="type_8">
             <div class="GoFundMe">
-                <p>More than anything, our team needs money donations to help us afford competition fees and materials for the robot itself, such as motors, pnumatics, aluminum,  and new electronics.</p>
+                <p class="donateTxt">More than anything, our team needs money donations to help us afford competition fees and materials for the robot itself, such as motors, pnumatics, aluminum,  and new electronics.</p>
                 <iframe class='gfm-media-widget' image='1' coinfo='1' width='100%' height='100%' frameborder='0' id='rocklin-high-school-robotics-team'></iframe><script src='//funds.gofundme.com/js/5.0/media-widget.js'></script>
                 <script src="/js/egg.js"></script>
                 <script src="/js/boner.js" async></script>
             </div>
             <hr class="type_8">
-            <p>We need parent chaperones in order to be in the shop when Mr. Frank is gone</p>
+            <p class="donateTxt">We need parent chaperones in order to be in the shop when Mr. Frank is gone</p>
             <button type="button" class="button" onclick="window.location.href='https://www.signupgenius.com/go/60b0e4faaab2fa2fd0-robotics'" target="_blank">Chaperone Sign Up</button>
             <hr class="type_8">
-            <p>Since the program requires long working hours, we ask that parents occasionally donate food to the program to feed 15-20 students</p>
+            <p class="donateTxt">Since the program requires long working hours, we ask that parents occasionally donate food to the program to feed 15-20 students</p>
             <button type="button" class="button" onclick="window.location.href='https://www.signupgenius.com/go/60b0e4faaab2fa2fd0-robotics1'">Food Sign Up</button>
         </div>
         
@@ -52,4 +53,7 @@
       rocklinhighfrc@gmail.com</a>.</p>
     </footer>
 	</body>
+    <script>
+        AOS.init();
+    </script>
 </html>
